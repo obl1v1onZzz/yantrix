@@ -10,9 +10,7 @@
 		"build:affected": "lerna run build --since main",
 		"test": "lerna run test --parallel",
 		"test:affected": "lerna run test --since main --parallel",
-		"preinstall": "npm run build",
-		"prepare": "npm run build",
-		"prepack": "npm run build"
+		"prepare": "npm run build"
 	},
 	"repository": {
 		"type": "git",
